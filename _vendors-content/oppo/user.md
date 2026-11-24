@@ -1,10 +1,10 @@
 ---
 manufacturer: 
-    - oppo
+    - oppo A53
 
 ---
 
-## Oppo F1S
+## Oppo A53
 
 Background services are being killed (including accessibility services, which then need re-enabling) every time you turn the screen off. So far, a workaround for this is:
 
@@ -83,3 +83,4 @@ You can choose one of three power-saving options under each app and allow the ap
   </figure>
 
 </div>
+adb shell sh /sdcard/Android/data/moe.shizuku.privileged.api/start.sh.
